@@ -1,6 +1,6 @@
 ## 1.JS组成部分
 
-![image-20240716142744891](C:\Users\廖一奥\AppData\Roaming\Typora\typora-user-images\image-20240716142744891.png)
+![image-20240716142744891](./pig/image-20240716142744891.png)
 
 #### 1. BOM
 

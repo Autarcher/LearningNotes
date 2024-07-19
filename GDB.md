@@ -16,7 +16,7 @@
 
 eg：
 
-![image-20240711094902513](C:\Users\廖一奥\AppData\Roaming\Typora\typora-user-images\image-20240711094902513.png)
+![image-20240711094902513](./pig/image-20240711094902513.png)
 
 2. 日志功能：
 
@@ -36,7 +36,7 @@ set logging on  [log_name]
 
 `ulimit -a` 查看所有用户的shell的限制（可能有core限制）
 
-![image-20240711181716198](C:\Users\廖一奥\AppData\Roaming\Typora\typora-user-images\image-20240711181716198.png)
+![image-20240711181716198](./pig/image-20240711181716198.png)
 
 记得打开当前文件的读写权限  `chmod u+x`
 
@@ -44,7 +44,7 @@ set logging on  [log_name]
 
 `gdb [file_name] [core_name]`
 
-eg:![image-20240711181606011](C:\Users\廖一奥\AppData\Roaming\Typora\typora-user-images\image-20240711181606011.png)
+eg:![image-20240711181606011](./pig/image-20240711181606011.png)
 
 不懂的命令先用`man`指令查。
 
@@ -54,8 +54,8 @@ eg:![image-20240711181606011](C:\Users\廖一奥\AppData\Roaming\Typora\typora-u
 
 会显示他的进程号
 
-eg:![image-20240711183202237](C:\Users\廖一奥\AppData\Roaming\Typora\typora-user-images\image-20240711183202237.png)
+eg:![image-20240711183202237](./pig/image-20240711183202237.png)
 
 也可以用 `pd -ef | grep test` 参看test开头的所有文件的服务情况。
 
-![image-20240711183257371](C:\Users\廖一奥\AppData\Roaming\Typora\typora-user-images\image-20240711183257371.png)
+![image-20240711183257371](./pig/image-20240711183257371.png)

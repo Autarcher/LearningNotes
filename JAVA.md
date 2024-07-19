@@ -1,6 +1,6 @@
 ## 段内存和堆内存：
 
-![image-20240715091516065](C:\Users\廖一奥\AppData\Roaming\Typora\typora-user-images\image-20240715091516065.png)
+![image-20240715091516065](./pig/image-20240715091516065.png)
 
 ## JAVA的数据流操作
 
