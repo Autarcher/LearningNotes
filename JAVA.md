@@ -34,3 +34,22 @@ public class StreamOper {
 }
 ```
 
+## JAVA的溢出
+
+JAVA的int溢出不会报错会出现以下情况。
+
+**负数溢出:**
+
+```java
+int x = -2147483648; //Integer.MIN_VALUE;
+x = x - 1;//此时x会等于2147483647
+// x = x - 2 此时x会等于2147483646
+```
+**正数溢出：**
+
+```java
+int x = 2147483647; //Integer.MAX_VALUE;
+x = x + 1;//此时x会等于-2147483648
+// x = x + 2 此时x会等于-2147483647
+```
+
